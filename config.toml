@@ -1,3 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://dung-n-tran.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+
+theme = "hugo-black-and-light-theme"
