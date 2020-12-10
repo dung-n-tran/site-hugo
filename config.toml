@@ -4,13 +4,8 @@ title = "My New Hugo Site"
 theme = "hugo-black-and-light-theme"
 
 [params]
-  sitename = "Dung Tran"
-  disableWebFonts = false
+    sitename = "Dung Tran"
+    disableWebFonts = false
 
-[[menu.main]]
-    name = "About"
-    url  = "about/"
-
-[[menu.main]]
-    name = "Publications"
-    url  = "publications/"
+[permalinks]
+  "/" = "/:filename"
